@@ -8,7 +8,7 @@ void processGps();
 
 void setup() {
   Serial.begin(115200);
-  Serial1.begin(9600, SERIAL_8N1, 22 /*rx*/, 21 /* tx */);
+  Serial1.begin(9600, SERIAL_8N1, 16 /*rx*/, 17/* tx */);
 }
 
 void loop() { //Choose Serial1 or Serial2 as required
